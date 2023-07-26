@@ -56,7 +56,36 @@ a {
     border: 1px black solid;
     grid-column: 2 / 3;
     display: grid;
+    grid-template-columns: auto 1fr auto auto auto;
+    grid-template-rows: 1fr 1fr 1fr;
 }
+
+.top-header {
+    padding-left: 15px;
+    grid-column: 2 / 4;
+}
+
+.middle-header {
+    grid-column: 2 / 3;
+}
+
+.middle-low-PFP {
+    grid-row: 2 / 4;
+}
+
+.username {
+
+}
+
+.low-header {
+
+}
+
+.headerlogo {
+    padding: 5px;
+}
+
+
 
 .main-content {
     border: 1px black solid;
@@ -64,3 +93,5 @@ a {
     grid-column: 2 / 3;
     display: grid;
 }
+
+
