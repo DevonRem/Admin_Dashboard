@@ -18,7 +18,7 @@ a {
     width: 100vw;
     border: 1px black solid;
     display: grid;
-    grid-template-columns: 250px 4fr;
+    grid-template-columns: 200px 4fr;
     grid-template-rows: 1fr 4fr;
 
 }
@@ -56,15 +56,9 @@ a {
     border: 1px black solid;
     grid-column: 2 / 3;
     display: grid;
-    grid-template-columns: auto 1fr auto auto auto;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 50px 9fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
-
-
-.headerlogo {
-    padding: 5px;
-}
-
 
 
 .main-content {
@@ -113,3 +107,33 @@ a {
 .card p {
     padding: 5px;
 }
+
+input {
+    background-color: lightgray;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    outline: none;
+    height: 50px;
+    margin-top: 5px;
+    margin-right: 35px;
+}
+
+.headerlogo {
+    margin-top: 5px;
+    padding-right: 35px;
+}
+
+.headerprofile {
+    padding-top: 5px;
+    padding-right: 30px;
+}
+
+.headername {
+    margin-top: 25px;
+
+}
+
+
+
+
